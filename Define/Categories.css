@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.linux {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+
+.logo {
+  width: 100px;
+}
+.header {
+  border: 1px solid black;
+  padding: 30px 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 650px;
+}
+
+.navigacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thoughts {
+  width: 650px;
+  margin: 20px auto;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 5px;
+  list-style: none;
+  color: black;
+}
+.thoughts-info__title {
+  font-weight: 600;
+  height: 100px;
+  display: flex;
+  align-items: end;
+  justify-self: start;
+}
+
+.head {
+  margin: 10px auto;
+  width: 700px;
+  padding: 30px;
+
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+.head__title {
+  padding: 30px 0;
+}
+
+.thoughts-info__discription {
+  margin-top: 15px;
+}
+
+footer {
+  padding: 30px;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.footer-nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
+.Define {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  list-style: none;
+}
